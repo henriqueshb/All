@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.container{
+    margin: 0 0 0 0;
+}
+
+.mainDiv {
+    min-height: 280px;
+}
+
+.header {
+    color: #ffffff;
+    background-color: #013f7a;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 55px;
+}
+
+.header h1{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+}    
+
+.main.container {
+    background-color: #c4c4c4;
+    height: 100%;
+    width: 100% !important;
+}
+
+#appLogo{
+    position: absolute;
+    background-image: "img/logo.jpg";
+    background-repeat: no-repeat;
+    top: 5px;
+    left: 10px;
+    width: 35px;
+    height: 40px;
+}
+
+.main.row, .mainCol {
+    height: 100%;
+}
+
+.mainDiv{
+    height: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c4c4c4;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #ffffff;
+
+}
+
+.item {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.item span,
+.item input,
+.item #local{
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.item .dropdown {
+    z-index: 9999;
+}
+
+#valor {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.div25 {
+    height: 17%;
+}
+
+#addNew{
+    width: 100%;
+    margin-top: 5%;
+    padding: 10px 0 10px 0px;
+    font-weight: 700;
+    font-size: 20px;
+}
