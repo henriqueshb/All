@@ -1,0 +1,4 @@
+ANDROID_HOME=C:\Users\SHB\AppData\Local\Android\sdk
+JAVA_HOME=C:\Program Files\java\jdk1.8.0_121
+Subproject Path: CordovaLib
+Starting a new Gradle Daemon for this build (subsequent builds will be faster).
